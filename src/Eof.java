@@ -10,12 +10,12 @@ public class Solution {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner sc=new Scanner(System.in);
         
-       int Harsha=1;
+       int a=1;
         
       while(sc.hasNextLine()) {
           String s=sc.nextLine();
-        System.out.println(Harsha  +" " +s);
-        Harsha++;
+        System.out.println(a  +" " +s);
+       a++;
       }
        
     }
